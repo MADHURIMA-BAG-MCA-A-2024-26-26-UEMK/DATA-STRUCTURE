@@ -7,3 +7,4 @@
 5. write a python program to implement quick sort using the dataset 27,15,39,21,28,70.
 6. Write a python program show that quicksort is better than bubble sort.
 7. Write a python program show that merge sort is better that quick sort.
+
