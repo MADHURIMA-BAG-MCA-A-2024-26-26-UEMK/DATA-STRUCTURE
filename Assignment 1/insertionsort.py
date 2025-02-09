@@ -19,5 +19,4 @@ data = [27, 15, 39, 21, 28, 70]
 
 # Sorting the dataset using insertion sort
 sorted_data = insertion_sort(data)
-
 print("Sorted dataset:", sorted_data)
