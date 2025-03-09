@@ -21,3 +21,15 @@
 10.	Write a Python program to count number of siblings present in a binary tree.  
  
  
+# ASSIGNMENT 3
+1.	Write a  Python program to create a binary search tree using recursive function and display that. 
+2.	Write a Python program to create a binary search tree using non-recursive function and display that. 
+3.	Write a Python program to insert (by using a function) a specific element into an existing binary search tree and then display that. 
+4.	Write a Python program to search an element in a BST and show the result. 
+5.	Write a Python program to take user name as input and display the sorted sequence of characters using BST. 
+6.	Write a Python program to sort a given set of integers using BST. 
+7.	Write a Python program to display a BST using In-order, Pre-order, Post-order. 
+8.	Write a Python program to Count the number of nodes present in an existing BST and display the highest element present in the BST. 
+9.	Write a Python program to prove that binary search tree is better than binary tree.  
+ 
+ 
