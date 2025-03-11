@@ -32,4 +32,10 @@
 8.	Write a Python program to Count the number of nodes present in an existing BST and display the highest element present in the BST. 
 9.	Write a Python program to prove that binary search tree is better than binary tree.  
  
- 
+# ASSIGNMENT 4
+1.	Write a Python program to search an element recursively in a binary search tree. 
+2.	Write a Python program to delete a child node from a binary search tree. 
+3.	Write a Python program to delete a node having one child from a binary search tree. 
+4.	Write a Python program to delete a node having two children from a binary search tree. 
+5.	Write a Python program to delete a node from a binary search tree. 
+
