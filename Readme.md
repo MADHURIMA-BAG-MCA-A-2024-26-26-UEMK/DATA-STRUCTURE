@@ -1,4 +1,4 @@
-  # ASSIGNMENT 1.   
+ # ASSIGNMENT 1.   
 
 1. write a python program to implement bubble sort using the dataset 27,15,39,21,28,70.
 2. write a python program to implement selection sort using the dataset 27,15,39,21,28,70.
@@ -9,7 +9,7 @@
 7. Write a python program show that merge sort is better that quick sort.
 
 # ASSIGNMENT 2
-1.	Write a Python program to create a binary tree using recursive function and display that level wise. 
+1.	Write a Python program t too create a binary tree using recursive function and display that level wise. 
 2.	Write a Python program to create a binary tree using non-recursive function and display that level wise. 
 3.	Write a Python program to create a binary tree using array only and display the tree level wise. 
 4.	Write a Python program to identify the height of a binary tree. 
