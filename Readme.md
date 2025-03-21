@@ -43,7 +43,7 @@
 1.	Write a Python program to store the following Graph using Adjacency Matrix & display that. 
     ![alt text](image-1.png)
 2.	Write a Python program to store the following Graph using Adjacency List & display that. 
- 
+        ![alt text](image.png)
 3.	Write a Python program to count number of vertices and edges present in a graph. 
 4.	Write a Python program to detect a cycle in a graph. 
 5.	Write a Python program to identify number of odd degree vertices and number of even degree vertices in a graph. 
