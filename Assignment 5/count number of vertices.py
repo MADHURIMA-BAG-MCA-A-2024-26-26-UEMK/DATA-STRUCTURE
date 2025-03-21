@@ -4,7 +4,7 @@ def count_vertices_edges(graph):
     num_vertices = len(graph)
     
     # Count the number of edges: sum of the lengths of all adjacency lists
-    num_edges = sum(len(neighbors) for neighbors in graph.values()) // 2  # Divide by 2 to avoid counting twice for undirected graph
+    num_edges = sum(len(neighbors) for neighbors in graph.values())   
     
     print(f"Number of Vertices: {num_vertices}")
     print(f"Number of Edges: {num_edges}")
