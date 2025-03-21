@@ -1,23 +1,34 @@
-# Program to check if a graph is complete
+def is_complete_graph(graph, num_vertices):
+    # Check if every vertex is connected to all other vertices
+    for vertex, neighbors in graph.items():
+        # Each vertex must have exactly num_vertices - 1 neighbors (connected to every other vertex)
+        if len(neighbors) != num_vertices - 1:
+            return False
+    return True
 
-def is_complete(graph):
-    num_vertices = len(graph)
-    total_edges = sum(len(neighbors) for neighbors in graph.values()) // 2
-    expected_edges = num_vertices * (num_vertices - 1) // 2
+def main():
+    # Step 1: Take user input for number of vertices
+    num_vertices = int(input("Enter the number of vertices: "))
 
-    if total_edges == expected_edges:
-        return True
-    return False
+    # Initialize an empty graph (Adjacency List)
+    graph = {str(i): [] for i in range(num_vertices)}
 
-# Example Graph (Adjacency List)
-graph = {
-    'A': ['B', 'C', 'D'],
-    'B': ['A', 'C', 'D'],
-    'C': ['A', 'B', 'D'],
-    'D': ['A', 'B', 'C']
-}
+    # Step 2: Take user input for edges
+    num_edges = int(input("Enter the number of edges: "))
+    
+    print("Enter the edges as pairs of vertices (e.g., 0 1 for an edge between vertex 0 and 1):")
+    
+    for _ in range(num_edges):
+        u, v = input().split()
+        if u != v:
+            graph[u].append(v)
+            graph[v].append(u)  # Since it's an undirected graph
 
-if is_complete(graph):
-    print("The graph is complete")
-else:
-    print("The graph is not complete")
+    # Step 3: Check if the graph is complete
+    if is_complete_graph(graph, num_vertices):
+        print("The graph is complete.")
+    else:
+        print("The graph is not complete.")
+
+if __name__ == "__main__":
+    main()
