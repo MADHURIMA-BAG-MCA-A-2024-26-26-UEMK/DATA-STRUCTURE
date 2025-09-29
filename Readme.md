@@ -1,4 +1,4 @@
-         # ASSIGNMENT 1.   
+          # ASSIGNMENT 1.   
  
 1. write a python program to implement bubble sort using the dataset 27,15,39,21,28,70.
 2. write a python program to implement selection sort using the dataset 27,15,39,21,28,70.      
